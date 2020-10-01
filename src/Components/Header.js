@@ -11,7 +11,7 @@ class Header extends Component {
             <h1 className="responsive-headline">FOSS GEC PKD</h1>
               <h3>
                  <span className="samecolor">Talent </span>
-                 wins games, but <span className="samecolor">TeamWork</span>
+                 wins games, but <span className="samecolor">TeamWork </span>
                   wins championships</h3>
             <hr />
          </div>
