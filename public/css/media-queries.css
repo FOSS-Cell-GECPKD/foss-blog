@@ -1,0 +1,84 @@
+
+@media only screen and (max-width: 900px) {
+   header .banner { padding-bottom: 12px; }
+   header .banner-text h1 {
+      
+      font: 78px/1.1em 'opensans-bold', sans-serif;
+      letter-spacing: -1px;      
+   }
+   header .banner-text h3 {
+      
+      font: 17px/1.9em 'librebaskerville-regular', serif;
+      width: 80%;
+   }
+   header .banner-text hr {
+      width: 65%;
+      margin: 12px auto;
+   }
+   /* About Section
+   ------------------------------------------------------------------- */
+   #about .pic {
+      width: 114px;
+      height: 114px;
+      margin-left: 12px;
+   }
+   #about .contact-details { width: 50%; }
+}
+
+/* mobile wide/smaller tablets
+---------------------------------------------------------------------- */
+
+@media only screen and (max-width: 767px) {
+
+   /* Header Styles
+   -------------------------------------------------------------------- */
+   header .banner {
+      padding-bottom: 12px;
+      padding-top: 6px;
+   }
+   header .banner-text h1 { font: 68px/1.1em 'opensans-bold', sans-serif; }
+   header .banner-text h3 {
+      font: 16px/1.9em 'librebaskerville-regular', serif;
+      width: 85%;
+   }
+   header .banner-text hr {
+      width: 80%;
+      margin: 18px auto;
+   }
+
+   /* About Section
+   -------------------------------------------------------------------- */
+   #about .pic { display: none; }
+   #about .main-col { padding-right: 30px; }
+
+   /* footer
+   ------------------------------------------------------------------------ */
+   /* copyright */
+   footer .copyright li:before { content: none; }
+   footer .copyright li { margin-right: 12px; }
+   /* social links */
+   footer .social-links { font-size: 22px; }
+   footer .social-links li { margin-left: 18px; }
+   /* Go To Top Button */
+   #go-top { margin-left: -22px; }
+   #go-top a {
+   	width: 54px;
+   	height: 54px;
+      font-size: 18px;
+      line-height: 54px;
+   }
+}
+@media only screen and (max-width: 480px) {
+   #nav-wrap ul#nav { width: auto; float: none; }
+   footer .social-links { font-size: 20px; }
+   footer .social-links li { margin-left: 14px; }   
+}
+
+
+
+
+
+
+
+
+
