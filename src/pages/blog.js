@@ -1,11 +1,14 @@
 import React from "react" // get the React object from the react module
+import Layout from '../components/Layout'
 
 
 const blog =() =>{
-    return (<div>
-        <h1>Blog Page</h1>
-       <a href="/" >Go to</a>
-    </div>
+    return (
+    
+    <Layout>
+        <h1>Blog</h1>
+    </Layout>
+        
        )
     }
 export default blog // expose the blog component to other modules
