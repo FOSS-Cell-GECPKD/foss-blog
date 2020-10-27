@@ -1,5 +1,9 @@
 import React from "react"
 
-export default function Home() {
-  return <div>Hello world how are you!</div>
+export default () =>{
+  return(
+    <div>
+      <h1>Hello world</h1>
+      <a href="/blog/">Blog</a>
+    </div>)
 }
