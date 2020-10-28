@@ -6,5 +6,5 @@
 
 module.exports = {
   /* Your site config here */
-  plugins: [`gatsby-styled-components-dark-mode`],
+  plugins: [`gatsby-plugin-emotion`],
 }
