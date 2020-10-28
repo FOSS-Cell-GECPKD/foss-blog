@@ -7,7 +7,7 @@ export default () =>{
     <Layout>
           
       <h>Welcome to GECSKP FOSS Blog</h>
-     
+      <p></p>
 
     </Layout>
   )

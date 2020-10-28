@@ -7,6 +7,13 @@ const blog =() =>{
     
     <Layout>
         <h1>Blog</h1>
+        <p className="blog">Lorem sdassf asdfasdfasdfas DKJsadfnashfnasn
+            dfnasfnkadsnf sadmflamsknff sdanadskfnasdbjfas
+            sdfnaskfnaksdfn sdnfkljjhadsf sadjfklasdnfkjsdf s dfjsadknfksadn
+            afask fjalsfdoa asdmf;lkadsjfalsdmf asldfmal;nf;amfladfmalsdf
+            safmasldfasdf fasmdklfmaskfasf
+            sadfasfasfasddfas
+        </p>
     </Layout>
         
        )
