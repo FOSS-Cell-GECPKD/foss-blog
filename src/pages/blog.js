@@ -1,5 +1,6 @@
 import React from "react" // get the React object from the react module
 import Layout from '../components/Layout'
+import Container from '../components/container'
 
 
 const blog =() =>{
@@ -7,7 +8,7 @@ const blog =() =>{
     
     <Layout>
         <h1>Blog</h1>
-        <p className="blog">Lorem sdassf asdfasdfasdfas DKJsadfnashfnasn
+        <p className="container">Lorem sdassf asdfasdfasdfas DKJsadfnashfnasn
             dfnasfnkadsnf sadmflamsknff sdanadskfnasdbjfas
             sdfnaskfnaksdfn sdnfkljjhadsf sadjfklasdnfkjsdf s dfjsadknfksadn
             afask fjalsfdoa asdmf;lkadsjfalsdmf asldfmal;nf;amfladfmalsdf
