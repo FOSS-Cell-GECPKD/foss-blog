@@ -1,7 +1,8 @@
 import React from "react"
-import { Link} from 'gatsby'
 import { createGlobalStyle } from "styled-components"
-
+import logo from "../assets/logo.svg"
+import PageLinks from "../constants/links"
+import { FaAlignRight } from "react-icons/fa"
 
 const GlobalStyle = createGlobalStyle`
   body {
@@ -13,23 +14,20 @@ const GlobalStyle = createGlobalStyle`
 
 const navbar = ()=>{
     return(
-    <nav>
+    <nav className="navbar">
+        <div className="nav-center">
+            <div className="nav-header">
+                <img src={logo} alt="logo"/>
+                <button type="button" className="toggle-btn">
+                <FaAlignRight></FaAlignRight>
+                </button>
+
+            </div>
+            <PageLinks styleClass="nav-links"></PageLinks>
+        </div >
         
 
-       <GlobalStyle theme="black"/>
-        <ul>
-        <li>
-                <Link to="/">Home</Link>
-            </li>
-            <li>
-                <Link to="/blog/">Blog</Link>
-            </li>
-            <li>
-                <Link to="/about/">About</Link>
-            </li>
-           
-        </ul>
-         
+       
         
     </nav>
     )
