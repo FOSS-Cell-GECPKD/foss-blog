@@ -1,15 +1,8 @@
 import React from "react"
-import { createGlobalStyle } from "styled-components"
 import logo from "../assets/logo.svg"
 import PageLinks from "../constants/links"
 import { FaAlignRight } from "react-icons/fa"
 
-const GlobalStyle = createGlobalStyle`
-  body {
-    color: grey;
-    align-content:center;
-  }
-`
 
 
 const navbar = ()=>{

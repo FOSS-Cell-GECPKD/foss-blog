@@ -6,5 +6,7 @@
 
 module.exports = {
   /* Your site config here */
-  plugins: [`gatsby-plugin-emotion`,`gatsby-plugin-styled-components`,`gatsby-theme-blog`,],
+  plugins: [`gatsby-transformer-sharp`,
+  `gatsby-plugin-sharp`,
+  `gatsby-plugin-react-helmet`,],
 }
